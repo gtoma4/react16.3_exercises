@@ -3,7 +3,8 @@ Exercise for new React 16.3 Features
 This React project includes some soon to be deprecated lifecycle methods that
 need to be updated to use the new lifecycle methods.
 
-After reviewing this article: https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html
+After reviewing this article: https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html and
+this https://reactjs.org/blog/2018/03/29/react-v-16-3.html
 
 * Clone this project
 * run 'npm start' to run in browser.
@@ -11,6 +12,6 @@ After reviewing this article: https://reactjs.org/blog/2018/03/27/update-on-asyn
 
   * When the button is clicked, the counter is incremented and a new name is added to the scrolling list (scroll posisition is maintained)
 
-* The exercise is to update myComponent.js to use the new lifecycle methods covered in the article.
+* The exercise is to update myComponent.js to use the new lifecycle methods covered in the article, and to use the new createRef API.
 
 - This exercise will be updated and expanded in the future to demonstrate other new features (i.e. context api)

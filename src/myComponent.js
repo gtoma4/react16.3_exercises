@@ -52,6 +52,7 @@ class ScrollingList extends React.Component {
     );
   }
 
+  // TODO use new createRef API insteado of callback
   setListRef = ref => {
     this.listRef = ref;
   };
