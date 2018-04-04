@@ -28,15 +28,17 @@ class App extends Component {
   render() {
     // console.log("this.state.theCount", this.state.theCount);
     return (
-      <div>
-        <MyComponent
-          numClicks={this.state.theCount}
-          nameList={[].concat(this.myList)}
-        />
-        <button style={{ marginTop: "20px" }} onClick={this.handleClick}>
-          Click Me
-        </button>
-      </div>
+      <React.StrictMode>
+        <div>
+          <MyComponent
+            numClicks={this.state.theCount}
+            nameList={[].concat(this.myList)}
+          />
+          <button style={{ marginTop: "20px" }} onClick={this.handleClick}>
+            Click Me
+          </button>
+        </div>
+      </React.StrictMode>
     );
   }
 }
